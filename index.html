@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<div class="main">
+    <head>
+        <title>Bank</title>
+        <script>
+            var withdrawn = 1000000;
+            var deposited = 1;
+            var balance = deposited - withdrawn;
+        </script>
+    </head>
+    <body>
+        <div class="topbar"> 
+            <style>
+                .topbar{
+                    height: 130px;
+                    width: 400px;
+                    background-color: rgb(17, 132, 240);
+                }
+                
+                
+            </style>   
+            <h1>Welcome to good bank!</h1>
+            <button onclick="no()" >About us
+                <script>
+                    function no() {
+                        alert("no")
+                    }
+                </script>
+            <button onclick="stopquestion()" >Is this site safe?
+                <script>
+                    function stopquestion() {
+                        alert("Yes. Now stop asking questions.")
+                    }
+                </script>
+            </button>
+        </div>
+        <div class="name">
+            <h2>Hello, Henry</h2>
+        </div>
+        <div class="balance">
+            <h4>Balance:  
+                <script>
+                    document.write(balance)
+                </script>
+            </h4>
+            <h4>Deposited:  
+                <script>
+                    document.write(deposited)
+                </script>
+            </h4>
+            <h4>Withdrawn:  
+                <script>
+                    document.write(withdrawn)
+                </script>
+            </h4>
+        </div>
+        <div class="ads">
+            <img src="Banner ad 1.png">
+            <img src="Banner ad 2.png">
+            <img src="Banner ad 3.png">
+        </div>
+    </body>
+</div>
+</html>
